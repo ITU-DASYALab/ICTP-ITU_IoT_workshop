@@ -1,5 +1,4 @@
-# smr-rwanda-2019
-Workshop materials for AIT Thailand Sept 2019
+# Workshop materials for AIT Thailand Sept 2019
 
 Based on versions  
 

@@ -85,13 +85,6 @@ while True:
     s = socket.socket(socket.AF_LORA, socket.SOCK_RAW)
     s.setsockopt(socket.SOL_LORA, socket.SO_DR, 5)
     s.send(msgLora)                     # send data to TTN
-    ### rx disabled
-    ### for rx: s.settimeout(3.0) # configure a timeout value of 3 seconds
-    ### for rx: try:
-    ### for rx:    rx_pkt = s.recv(64)   # get the packet received (if any)
-    ### for rx:    print(rx_pkt)
-    ### for rx: except socket.timeout:
-    ### for rx:   print('No packet received')
     #
     print("----------------------------[END MSG TX LORA]")
     #

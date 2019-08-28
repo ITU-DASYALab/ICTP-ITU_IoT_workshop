@@ -4,10 +4,10 @@ from machine import idle
 import time
 import pycom
 
-wifi_ssid = "__YOUR_SSID__"
-wifi_passwd = "__YOUR_PW__"
+wifi_ssid = "_WiFi-SSID_"
+wifi_passwd = "_WiFi-password"
 broker_addr = "test.mosquitto.org"
-MYDEVID = "PM"
+MYDEVID = "your_name_or_code"
 
 
 def settimeout(duration):
@@ -35,7 +35,7 @@ if not client.connect():
     print ("Connected to broker: " + broker_addr)
 
 client.set_callback(on_message)
-client.subscribe("lopy/sensor")
+client.subscribe("sensors/")
 
 print("Checking messages ...")
 

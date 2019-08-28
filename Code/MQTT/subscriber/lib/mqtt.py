@@ -136,7 +136,7 @@ class MQTTClient:
         #print(hex(len(pkt)), hexlify(pkt, ":"))
         self.sock.write(pkt)
         self._send_str(topic)
-        self.sock.write(qos.to_bytes(1))
+        self.sock.write(qos.to_bytes(1, 'little'))
         while 1:
             op = self.wait_msg()
             if op == 0x90:
@@ -189,3 +189,4 @@ class MQTTClient:
     def check_msg(self):
         self.sock.setblocking(False)
         return self.wait_msg()
+

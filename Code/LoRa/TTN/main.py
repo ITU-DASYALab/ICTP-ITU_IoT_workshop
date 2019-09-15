@@ -1,8 +1,13 @@
 from network import LoRa
 import binascii
 import struct
-
-lora = LoRa(mode=LoRa.LORAWAN)
+# Initialise LoRa in LORAWAN mode.
+# Please pick the region that matches where you are using the device:
+# Asia = LoRa.AS923
+# Australia = LoRa.AU915
+# Europe = LoRa.EU868
+# United States = LoRa.US915
+lora = LoRa(mode=LoRa.LORAWAN, region=LoRa.AS923)
 
 dev_addr = struct.unpack(">l", binascii.unhexlify('26041D15'))[0]
 nwk_swkey = binascii.unhexlify('8433EAA1CAF1396BCDEAE5A23143477C')

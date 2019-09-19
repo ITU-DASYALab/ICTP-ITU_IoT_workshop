@@ -6,4 +6,6 @@ University of Rwanda, 2019
 
 Pune, India, 2019
 
-Modified for AIT 201909
+Modified for AIT 201909 <br/>
+
+Python programs done in the lab can be found in the participant-programs folder.

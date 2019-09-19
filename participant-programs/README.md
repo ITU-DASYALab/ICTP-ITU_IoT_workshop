@@ -13,4 +13,4 @@ Displays whole range of colors that can be displayed by the LED of the board dep
 ## Lab 2
 
 - RSSI Quality <br/>
-Depends the LED light on the quality of the WiFi signal. Program written by [Karan Raj Baruah](https://github.com/wuodland)
+Depending and the quality of the WiFi signal, the LED light displayed is adjusted. Program written by [Karan Raj Baruah](https://github.com/wuodland)

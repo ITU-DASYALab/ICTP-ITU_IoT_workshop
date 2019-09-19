@@ -8,4 +8,9 @@ This adjusts the LED of the LoPy board dependidng on the ambient light that is m
 - Temperature Light <br/>
 This adjusts the LED of the LoPy devices based on the temparature. Program written by [Pavel Farhan](https://github.com/pfarhan)
 - Gradient Ambient Light <br/>
-Displays whole range of colors that can be displayed by the LED of the board depending on the different intensities. Written by [Raunak Mukhia](https://github.com/rmukhia)
+Displays whole range of colors that can be displayed by the LED of the board depending on the different intensities. Written by [Raunak Mukhia](https://github.com/rmukhia) <br/>
+
+## Lab 2
+
+- RSSI Quality <br/>
+Depends the LED light on the quality of the WiFi signal. Program written by [Karan Raj Baruah](https://github.com/wuodland)

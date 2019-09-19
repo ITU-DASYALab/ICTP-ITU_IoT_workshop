@@ -44,7 +44,7 @@ Most important steps:
 
 Run
 
-sudo gateway-config
+'''sudo gateway-config'''
 
 and choose which LoRaWAN network server to use -
 
@@ -59,6 +59,18 @@ Remember to write down your GatewayID.
 You can get it at all times by running
 
 gateway-version
+
+Important: Choose how we connect the Raspberry Pi to the Internet.
+
+Our choice:
+
+* Keep Wi-Fi AP running for now
+
+* Set static IP for ethernet interface:
+
+		10.15.222.10.x with x = group number
+
+
 
 ### 5. Add your gateway to TTN
 

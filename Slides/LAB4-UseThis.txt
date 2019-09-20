@@ -1,0 +1,7 @@
+use this in telegraf.conf:
+
+
+
+
+username = "interlab-mappers"
+password = "ttn-account-v2.1FAbXKd6DoYggxb2ehm8nFylhoFFmEFxvbvABe2uKHU"
